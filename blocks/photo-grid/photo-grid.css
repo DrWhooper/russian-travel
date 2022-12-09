@@ -10,7 +10,7 @@
     .photo-grid {
         max-width: calc(100% - 96px);
         grid-template-columns: repeat(3, 3fr);
-        gap: 14px
+        gap: 14px;
     }
 } 
 
