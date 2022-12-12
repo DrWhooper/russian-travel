@@ -9,6 +9,12 @@
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 640px) {
+    .cover__subtitle{
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover__subtitle {
         margin: 16px auto 0;

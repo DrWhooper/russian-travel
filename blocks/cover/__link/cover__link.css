@@ -7,12 +7,15 @@
     padding-bottom: 238px;
     justify-content: center;
     align-content: center;
-    background-color: rgba(18, 20, 22, 0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(42, 44, 47, 0.3);
     transition: 0.5s;
 }
 
 .cover__link:hover {
-  background-color: rgba(18, 20, 22, 0.8);
+  background-color: rgba(42, 44, 47, 0.8);;
 }
 
 @media screen and (max-width: 1024px) {
@@ -31,6 +34,7 @@
 
 @media screen and (max-width: 320px) {
   .cover__link {
+    margin-top: 62px;
     padding-top: 35px;
     padding-bottom: 35px;
   }

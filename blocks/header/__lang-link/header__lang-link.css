@@ -6,7 +6,14 @@
     text-align: right;
     text-decoration: none;
     color: #FFFFFF;
+    opacity: 1;
+    transition: opacity 0.5s;
 }
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+
 
 @media screen and (max-width: 320px) {
     .header__lang-link {

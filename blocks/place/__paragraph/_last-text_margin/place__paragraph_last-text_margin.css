@@ -1,5 +1,5 @@
 @media screen and (max-width: 320px) {
-    .place__paragraph_last-text {
+    .place__paragraph_last-text_margin {
         margin-top: 34px;
     }
 }

@@ -1,5 +1,5 @@
 .header {
-  max-width: 1184px;
+  max-width: 92.5%;
   margin: 28px auto 0;
   box-sizing: border-box;
   display: flex;
@@ -8,13 +8,21 @@
 
 @media screen and (max-width: 1024px) {
   .header {
+    margin: 28px 48px 0;
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
+    margin: 28px 24px 0;
     max-width: 720px;
+  }  
+}
+
+@media screen and (max-width: 640px) {
+  .header {
+    margin: 28px 16px 0;
   }  
 }
 
